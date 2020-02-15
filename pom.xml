@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>maven-web-application</artifactId>
+	<artifactId>maven-web-application-o</artifactId>
 	<packaging>war</packaging>
 	<version>1.5-SNAPSHOT</version>
 	
@@ -23,9 +23,9 @@
 		<spring.version>5.0.2.RELEASE</spring.version>
 		<junit.version>4.12</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.232.9.64:9000/</sonar.host.url>
-		<sonar.login>admin</sonar.login>
-	         <sonar.password>admin</sonar.password>
+		<sonar.host.url>http://13.234.226.238:9000/</sonar.host.url>
+		<sonar.login>3c3250646d962f847629acaefe6d63f1648533b2</sonar.login>
+		<!-- <sonar.password>admin</sonar.password> -->
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -55,13 +55,6 @@
 		</dependency>
 
 		<!-- compile dependencies -->
-		
-		<dependency>
-  <groupId>com.sun</groupId>
-  <artifactId>tools</artifactId>
-  <scope>system</scope>
-  <systemPath>${java.home}/../lib/tools.jar</systemPath>
-</dependency>
 
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -98,13 +91,13 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.233.4.150:8081/repository/flipkart-release/</url>
+	      <name>Mithun Software Solutions Releases Nexus Repository</name>
+	      <url>http://13.233.138.204:9980/mithuntechnologies/repository/paytm-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.233.4.150:8081/repository/flipkart-snapshot/</url>
+	      <name>Mithun Software Solutions Snapshot Nexus Repository </name>
+	      <url>http://13.233.138.204:9980/mithuntechnologies/repository/paytm-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
